@@ -34,3 +34,8 @@ sudo nano /etc/apt/sources.list
 > deb http://jp.archive.ubuntu.com/ubuntu/ focal-updates main restricted universe multiverse # 追加
 > deb http://jp.archive.ubuntu.com/ubuntu/ focal-backports main restricted # 追加
 > deb http://security.ubuntu.com/ubuntu focal-security main restricted universe multiverse # 追加
+
+
+### 参考文献
+- [build-essentialパッケージのインストール](https://anamorphosis.net/tech/apt-install-build-essential%E3%82%92boot-usb%E3%81%8B%E3%82%89%E3%82%AA%E3%83%95%E3%83%A9%E3%82%A4%E3%83%B3%E3%81%A7%E8%A1%8C%E3%81%86%EF%BC%88ubuntu18-04%EF%BC%89/)
+- [NICドライバのインストール](https://qiita.com/hatt0519/items/06ac708f08d9570f2b93)
