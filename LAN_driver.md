@@ -29,11 +29,11 @@ Boot USBを介したパッケージのインストールとNICドライバのイ
 
 ## パッケージ取得方法の修正
 sudo nano /etc/apt/sources.list
-> \# deb [trusted=yes] file:/media/cdrom focal main restricted # 先ほど追加したものをコメントアウト
-> deb http://jp.archive.ubuntu.com/ubuntu/ focal main restricted universe multiverse # 追加
-> deb http://jp.archive.ubuntu.com/ubuntu/ focal-updates main restricted universe multiverse # 追加
-> deb http://jp.archive.ubuntu.com/ubuntu/ focal-backports main restricted # 追加
-> deb http://security.ubuntu.com/ubuntu focal-security main restricted universe multiverse # 追加
+> \# deb [trusted=yes] file:/media/cdrom focal main restricted # 先ほど追加したものをコメントアウト<br>
+> deb http://jp.archive.ubuntu.com/ubuntu/ focal main restricted universe multiverse # 追加<br>
+> deb http://jp.archive.ubuntu.com/ubuntu/ focal-updates main restricted universe multiverse # 追加<br>
+> deb http://jp.archive.ubuntu.com/ubuntu/ focal-backports main restricted # 追加<br>
+> deb http://security.ubuntu.com/ubuntu focal-security main restricted universe multiverse # 追加<br>
 
 
 ### 参考文献
