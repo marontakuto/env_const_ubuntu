@@ -33,9 +33,9 @@ deb [trusted=yes] file:/media/cdrom focal main restricted # これを加えて�
 sudo nano /etc/apt/sources.list
 <pre>
 # deb [trusted=yes] file:/media/cdrom focal main restricted # 先ほど追加したものをコメントアウト
-deb http://jp.archive.ubuntu.com/ubuntu/ focal main restricted universe multiverse # 追加<br>
-deb http://jp.archive.ubuntu.com/ubuntu/ focal-updates main restricted universe multiverse # 追加<br>
-deb http://jp.archive.ubuntu.com/ubuntu/ focal-backports main restricted # 追加<br>
+deb http://jp.archive.ubuntu.com/ubuntu/ focal main restricted universe multiverse # 追加
+deb http://jp.archive.ubuntu.com/ubuntu/ focal-updates main restricted universe multiverse # 追加
+deb http://jp.archive.ubuntu.com/ubuntu/ focal-backports main restricted # 追加
 deb http://security.ubuntu.com/ubuntu focal-security main restricted universe multiverse # 追加
 </pre>
 
