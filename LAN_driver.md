@@ -11,7 +11,9 @@ Boot USBを介したパッケージのインストールとNICドライバのイ
 4. sudo dd if=/dev/<Boot USBの実行パス> of=ubuntu.iso bs=4M # Boot USBの内容をISOファイルとして保存
 5. sudo mount -o loop ubuntu.iso /media/cdrom # ISOファイルをマウント
 6. sudo nano /etc/apt/sources.list # ISOからパッケージを取得するように設定
+<pre>
 > deb [trusted=yes] file:/media/cdrom focal main restricted # これを加えて他をすべてコメントアウト
+</pre>
 7. sudp apt update # ISOファイルからパッケージの取得
 8. sudo apt install build-essential # makeに必要となるパッケージのインストール
 
@@ -29,11 +31,13 @@ Boot USBを介したパッケージのインストールとNICドライバのイ
 
 ## パッケージ取得方法の修正
 sudo nano /etc/apt/sources.list
+<pre>
 > \# deb [trusted=yes] file:/media/cdrom focal main restricted # 先ほど追加したものをコメントアウト<br>
 > deb http://jp.archive.ubuntu.com/ubuntu/ focal main restricted universe multiverse # 追加<br>
 > deb http://jp.archive.ubuntu.com/ubuntu/ focal-updates main restricted universe multiverse # 追加<br>
 > deb http://jp.archive.ubuntu.com/ubuntu/ focal-backports main restricted # 追加<br>
 > deb http://security.ubuntu.com/ubuntu focal-security main restricted universe multiverse # 追加<br>
+</pre>
 
 
 ### 参考文献
